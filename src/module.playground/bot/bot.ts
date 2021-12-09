@@ -1,6 +1,6 @@
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { Injectable } from '@nestjs/common'
-import { GenesisKeys } from '@defichain/testcontainers'
+import { GenesisKeys } from '@muirglacier/testcontainers'
 import { Interval } from '@nestjs/schedule'
 
 @Injectable()

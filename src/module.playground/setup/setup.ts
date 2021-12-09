@@ -1,6 +1,6 @@
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { Injectable, Logger } from '@nestjs/common'
-import { RegTestFoundationKeys } from '@defichain/jellyfish-network'
+import { RegTestFoundationKeys } from '@muirglacier/jellyfish-network'
 
 @Injectable()
 export abstract class PlaygroundSetup<Each> {

@@ -94,7 +94,7 @@ npm install
 There are three types of tests required for DeFi Playground.
 
 All types of tests required Docker
-as [`@defichain/testcontainers`](https://github.com/DeFiCh/jellyfish/tree/main/packages/testcontainers) will
+as [`@muirglacier/testcontainers`](https://github.com/DeFiCh/jellyfish/tree/main/packages/testcontainers) will
 automatically spin up `regtest` instances for testing. The number of containers it will spin up concurrently is
 dependent on your jest `--maxConcurrency` count. Test are known to be flaky due to the usage of multiple Docker
 containers for test concurrency.

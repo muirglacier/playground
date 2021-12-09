@@ -1,6 +1,6 @@
 import { PlaygroundSetup } from '@src/module.playground/setup/setup'
 import { Injectable } from '@nestjs/common'
-import { CreateTokenMetadata } from '@defichain/jellyfish-api-core/dist/category/token'
+import { CreateTokenMetadata } from '@muirglacier/jellyfish-api-core/dist/category/token'
 
 interface TokenSetup {
   create: CreateTokenMetadata

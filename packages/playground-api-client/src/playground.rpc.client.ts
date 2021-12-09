@@ -1,4 +1,4 @@
-import { ApiClient, Precision, PrecisionPath } from '@defichain/jellyfish-api-core'
+import { ApiClient, Precision, PrecisionPath } from '@muirglacier/jellyfish-api-core'
 import { PlaygroundApiClient } from './playground.api.client'
 
 /**

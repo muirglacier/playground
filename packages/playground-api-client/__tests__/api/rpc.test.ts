@@ -1,4 +1,4 @@
-import { blockchain } from '@defichain/jellyfish-api-core'
+import { blockchain } from '@muirglacier/jellyfish-api-core'
 import { StubPlaygroundApiClient } from '../stub.client'
 import { StubService } from '../stub.service'
 

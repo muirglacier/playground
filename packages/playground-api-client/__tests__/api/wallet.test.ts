@@ -1,6 +1,6 @@
 import { StubPlaygroundApiClient } from '../stub.client'
 import { StubService } from '../stub.service'
-import { Testing } from '@defichain/jellyfish-testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 import BigNumber from 'bignumber.js'
 
 const service = new StubService()

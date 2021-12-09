@@ -1,10 +1,10 @@
 import { Test, TestingModule } from '@nestjs/testing'
 import { AppModule } from '@src/app.module'
 import { ConfigService } from '@nestjs/config'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { newFastifyAdapter } from '@src/fastify'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 
 export class PlaygroundTesting {
   nestFastifyApplication?: NestFastifyApplication
@@ -45,7 +45,7 @@ export class PlaygroundTesting {
 /**
  * Configures an end-to-end testing app integrated with all modules.
  * Memory database will be used by default.
- * DeFiD client will be provided by @defichain/testcontainers.
+ * DeFiD client will be provided by @muirglacier/testcontainers.
  *
  * @param {MasterNodeRegTestContainer} container to provide defid client
  * @return Promise<NestFastifyApplication> with initialization

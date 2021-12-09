@@ -1,6 +1,6 @@
 import { PlaygroundSetup } from '@src/module.playground/setup/setup'
 import { Injectable } from '@nestjs/common'
-import { CreateLoanScheme } from '@defichain/jellyfish-api-core/dist/category/loan'
+import { CreateLoanScheme } from '@muirglacier/jellyfish-api-core/dist/category/loan'
 import BigNumber from 'bignumber.js'
 
 @Injectable()

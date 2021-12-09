@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@defichain/playground-api-client",
+  "name": "@muirglacier/playground-api-client",
   "version": "0.0.0",
   "keywords": [
     "DeFiChain",
@@ -23,9 +23,9 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@defichain/jellyfish-api-core": "^2.10.0",
+    "@muirglacier/jellyfish-api-core": "^0.0.3",
     "abort-controller": "^3.0.0",
     "cross-fetch": "^3.1.4",
-    "defichain": "^2.10.0"
+    "muirglacier": "^0.0.3"
   }
 }

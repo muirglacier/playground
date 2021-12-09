@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common'
-import { BigNumber } from '@defichain/jellyfish-json'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { BigNumber } from '@muirglacier/jellyfish-json'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { Interval } from '@nestjs/schedule'
 
 enum PriceDirection {

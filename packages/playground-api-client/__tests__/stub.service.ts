@@ -1,10 +1,10 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { createTestingApp, stopTestingApp } from '../../../src/e2e.module'
 
 /**
  * Service stubs are simulations of a real service, which are used for functional testing.
- * Configures a TestingModule that is configured to connect to a provided @defichain/testcontainers.
+ * Configures a TestingModule that is configured to connect to a provided @muirglacier/testcontainers.
  */
 export class StubService {
   app?: NestFastifyApplication

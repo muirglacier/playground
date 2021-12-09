@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/@defichain/playground-api-client)](https://www.npmjs.com/package/@defichain/playground-api-client/v/latest)
-[![npm@next](https://img.shields.io/npm/v/@defichain/playground-api-client/next)](https://www.npmjs.com/package/@defichain/playground-api-client/v/next)
+[![npm](https://img.shields.io/npm/v/@muirglacier/playground-api-client)](https://www.npmjs.com/package/@muirglacier/playground-api-client/v/latest)
+[![npm@next](https://img.shields.io/npm/v/@muirglacier/playground-api-client/next)](https://www.npmjs.com/package/@muirglacier/playground-api-client/v/next)
 
-# @defichain/playground-api-client
+# @muirglacier/playground-api-client

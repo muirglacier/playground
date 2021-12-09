@@ -1,10 +1,10 @@
 import BigNumber from 'bignumber.js'
 import { Body, Controller, Get, Param, Post } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { SendTo, WalletBalances } from '@playground-api-client/api/wallet'
-import { CTransaction, DeFiTransactionConstants, OP_CODES, Transaction, Vout } from '@defichain/jellyfish-transaction'
-import { DeFiAddress } from '@defichain/jellyfish-address'
-import { waitForCondition } from '@defichain/testcontainers/dist/utils'
+import { CTransaction, DeFiTransactionConstants, OP_CODES, Transaction, Vout } from '@muirglacier/jellyfish-transaction'
+import { DeFiAddress } from '@muirglacier/jellyfish-address'
+import { waitForCondition } from '@muirglacier/testcontainers/dist/utils'
 
 @Controller('/v0/playground/wallet')
 export class WalletController {

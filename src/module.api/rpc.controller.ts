@@ -9,7 +9,7 @@ import {
   Injectable,
   ArgumentMetadata
 } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 
 /**
  * MethodWhitelist is a whitelist validation pipe to check whether a plain old rpc can be

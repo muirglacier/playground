@@ -1,6 +1,6 @@
 import { Interval } from '@nestjs/schedule'
 import { Injectable, Logger } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { PlaygroundSetup } from '@src/module.playground/setup/setup'
 
 @Injectable()

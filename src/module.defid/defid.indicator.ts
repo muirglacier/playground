@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { ProbeIndicator, HealthIndicatorResult } from '@src/module.health/probe.indicator'
 
 @Injectable()
